@@ -1,0 +1,87 @@
+.todo__main {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .todo__main h1 {
+    background-color: #00b881;
+    color: #ffffff;
+  }
+  
+  .input__container {
+    background-color: #ffffff;
+    padding: 30px 10px;
+    box-shadow: 5px 5px 60px #d9d9d9, 5px 5px 5px #ffffff;
+  }
+  
+  .input__container input {
+    padding: 5px;
+    width: 95%;
+    outline: none;
+    border: 1px solid #000000;
+  }
+  
+  .input__container input:focus {
+    border: 1px solid #00b881;
+  }
+  
+  .input__container button {
+    margin-top: 10px;
+    padding: 7px 25px;
+    cursor: pointer;
+    background-color: #00b881;
+  }
+  
+  .input__container button:hover {
+    background-color: slategray;
+    color: white;
+    font-weight: bold;
+  }
+  .list__container {
+    margin-top: 40px;
+  }
+  
+  .list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #00b881;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .cm_btn {
+    background-color: transparent;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .danger {
+    background-color: red;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .check {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .checked__list__item {
+    background-color: aqua;
+  }
+
+  .log_out{
+    position: absolute;
+    right:120px;
+    top: 20px;
+    border: 1px solid #00b881;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+  }
